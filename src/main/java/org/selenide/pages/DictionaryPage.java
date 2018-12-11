@@ -18,7 +18,7 @@ public class DictionaryPage {
     private SelenideElement lookupButton;
 
     public List<String> getDefinitions() {
-        return asList($$("ol li").getTexts());
+        return $$("ol li").texts();
     }
 
     public void searchFor(String query) {
