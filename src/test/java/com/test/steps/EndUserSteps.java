@@ -23,7 +23,7 @@ public class EndUserSteps extends ScenarioSteps {
     @Step
     public void starts_search_pear() {
         dictionaryPage.searchFor("pear");
-        dictionaryPage.shouldSeeDefinition("wrong text");    
+        dictionaryPage.shouldSeeDefinition("wrong text");
     }
     
     public void setPage(Object page) {
